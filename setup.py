@@ -14,7 +14,7 @@ setuptools.setup(
     license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/swar/nba_api",
+    url="https://github.com/Fragadule/nba_api",
     packages=setuptools.find_packages(),
     classifiers=[
         "Intended Audience :: Developers",
