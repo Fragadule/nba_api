@@ -57,7 +57,8 @@ class NBAHTTP:
 
     base_url = None
 
-    headers = None
+    headers = {'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+           'Cookie': 'ak_bmsc=D21B62711C0748672E647D6A8754CC2F58DD732E906F00008106265CFEA45025~plejiRGMRkdj0Y0mvu1C7MXLiUHUih+ViuFpySppUJLr4xL91Dkyr0V4eqTJQ3o0lztvXvS1Pt4GYT/dctFI8vNYqPc9tdKtOZmDTVNqfCL/sHHU6EVomVa/iZB3+UiiYP1vSbUCj7Q5GK9gGsiN+gykhkD0/rEO68ksRh4r8JPzCBlpks8SUCX6q5xUrCXpFBX6L6gSMkJcJuefl5MUMVV3DF/VcQzz9hVr47UKbZX20='}
 
     def clean_contents(self, contents):
         return contents
